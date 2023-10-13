@@ -50,11 +50,7 @@ public class task_1{
         java.util.Scanner in = new java.util.Scanner(System.in, "ibm866");
         System.out.print("5) Input a number: ");
         int f = in.nextInt();
-        System.out.print("6) Input a text: ");
-        String text = in.next();
         in.close();
-
-        System.out.println("   Text: " + text);
 
         System.out.println("   Factorial: " + get_factorial(f));
     }
